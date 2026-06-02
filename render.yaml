@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: line-lego-bot
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: TIMEZONE
+        value: "Asia/Taipei"
+      - key: DAILY_PUSH_TIME
+        value: "08:00"
+      - key: ENABLE_DAILY_PUSH
+        value: "false"
+      - key: MAX_NEWS_ITEMS
+        value: "8"
+      - key: LINE_CHANNEL_ACCESS_TOKEN
+        sync: false
+      - key: LINE_CHANNEL_SECRET
+        sync: false
+      - key: LINE_USER_ID
+        sync: false
+      - key: CRON_SECRET
+        generateValue: true

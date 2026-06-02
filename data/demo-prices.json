@@ -1,0 +1,22 @@
+{
+  "10333": [
+    {
+      "market": "Demo Store",
+      "condition": "new",
+      "price": 459.99,
+      "currency": "USD",
+      "url": "https://www.lego.com/en-us/search?q=10333",
+      "note": "Demo price. Replace provider with Amazon/eBay/BrickLink API for production."
+    }
+  ],
+  "10305": [
+    {
+      "market": "Demo Store",
+      "condition": "new",
+      "price": 349.99,
+      "currency": "USD",
+      "url": "https://www.lego.com/en-us/search?q=10305",
+      "note": "Demo price. Replace provider with Amazon/eBay/BrickLink API for production."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "line-lego-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LINE Bot MVP for daily LEGO news summaries and set price lookup.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "render:start": "node src/server.js",
+    "summary": "node src/cli.js summary",
+    "price": "node src/cli.js price",
+    "test": "node src/cli.js test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
