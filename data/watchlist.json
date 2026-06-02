@@ -2,13 +2,13 @@
   {
     "setNumber": "10333",
     "name": "The Lord of the Rings: Barad-dur",
-    "targetPrice": 399.99,
-    "currency": "USD"
+    "targetPrice": 9999,
+    "currency": "TWD"
   },
   {
     "setNumber": "10305",
     "name": "Lion Knights' Castle",
-    "targetPrice": 319.99,
-    "currency": "USD"
+    "targetPrice": 8999,
+    "currency": "TWD"
   }
 ]
